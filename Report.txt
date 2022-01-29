@@ -1,0 +1,14 @@
+for hash table, operation put : O(n) get: O(n) delete : O(n)
+space O(n)
+for Binary tree  put : O(1) get: O(1) delete : O(n)
+space O(n)
+
+for cleverSIDC 
+SetSIDCThreshold (Size): O(1) 
+generate(): O(1) 
+allKeys(CleverSIDC): O(n)
+add(CleverSIDC,key,value2): O(n) for HT, O(1) for BST
+remove(CleverSIDC,key): O(n)
+getValues(CleverSIDC,key): O(n) for HT, O(1) for BST
+nextKey(CleverSIDC,key): O(n) for HT, O(1) for BST
+prevKey(CleverSIDC,key): O(n) for HT, O(1) for BST
